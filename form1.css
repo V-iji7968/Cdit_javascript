@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    color: chocolate;
+}
+
+h2{
+    text-align: center;  
+}
+label
+{
+    text-align: center;  
+}
+p{
+    text-align: center; 
+}
+input[id="name"]
+{
+    text-align: center; 
+}
+body{
+    background-color: antiquewhite;
+    animation-name: example;
+    animation-duration: 4s;
+    /* background-image: url(pic123.png); */
+ 
+}
+@keyframes example {
+    from {background-color: lightgrey;}
+    to {background-color: lightcyan;}
+  }
+  @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+img#animated-image {
+    width: 200px;
+    height: 200px;
+    animation: spin 10s linear infinite;  
+    animation-delay: 1s;
+   
+
+}
+
+#myFile
+{
+    text-align: center;
+   margin-left:150px;
+   padding: 10px;
+}
+
+#File
+{
+    margin-left:750px;  
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="form1.css"/>
+    <table>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+    <title>Document </title>
+
+</head>
+<body>
+    <h1>GRIEVANCE PORTAL</h1>
+ <center>  <img id="animated-image" src="photo/pic1.jpg.crdownload" alt="Animated"></center> 
+
+    <form onsubmit="return submitFunction()" method="post">
+       
+        <h2>REGISTRATION FORM</h2>
+                    <p> <label for="name">Name</label>
+                    <input id="name" type="text" name="name"  onblur="namevalidate()"/></p>
+                        
+                       
+                    
+         
+                <p><label for="email">Email Address</label>
+                 <input id="email" type="text" name="email" onblur="emailvalidate()" /> </p>
+               
+                    
+                <p><label for="phonenumber">Telephone number</label>
+                <input id="phonenumber" type="text" name="phonenumber"  onblur="phonevalidate()"/>  </p>
+                    
+              
+                    <p id="id4"> Gender : <label><input type="radio" name="gender" value="male" id="radio1"/> Male</label>
+                    <label><input type="radio" name="gender" value="female" id="radio2"/> Female  </label></p> 
+                             
+                    <p><label>Date of Birth:<input type="date" id="date" onblur="datevalidate()" name="birthDate"></label></p> 
+                   
+                    <p><label></label>Address :<br /><textarea name="address" id="address" cols="30"rows="3" onblur="addressvalidate()"></textarea> </label></p>        
+               
+                      
+                    <p><label> Complaint :<br /><textarea name="address" id="complaint" cols="60"rows="6" onblur="complaintvalidate()"></textarea></label>
+                         
+                                 
+                  <p> <input type="file" id="myFile" name="filename"></p> 
+                 
+                    <button type="submit" id="File">Submit</button> 
+
+     
+                </form>
+            </table>  <script src="animated.js"> </script>
+        </body>
+        </html>       
